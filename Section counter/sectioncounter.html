@@ -1,0 +1,264 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!---------------------------- Bootstrap CSS -------------------------------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!---------------------------- iconify-icon -------------------------------------->
+    <script src="https://code.iconify.design/iconify-icon/1.0.5/iconify-icon.min.js"></script>
+    <!--------------------------- Custom CSS ---------------------------------------->
+    <link rel="stylesheet" href="./counternew.css">
+</head>
+
+<body>
+    <!-------------------------- Header Start ------------------------------------->
+    <header>
+        <nav class="navbar sticky sticky-top  bg-white navbar-expand-lg navbar-dark">
+            <div class="container">
+                <div class=" logo">
+                    <a class="navbar-brand" href="#">
+                        <h1>Logo</h1>
+                    </a>
+                </div>
+                <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" 
+                    data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <iconify-icon icon="fe:bar" style="color: black;" width="28" height="28"
+                        class="baricon"></iconify-icon>
+                </button>
+                <ul class="  navbar-nav mr-auto w-100  d-sm-none d-md-none d-lg-inline-flex d-none justify-content-end ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                            <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </li>
+                </ul>
+
+                <div class="offcanvas offcanvas-end bg-canvas" id="navbarOffcanvas"
+                    tabindex="-1" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title text-light" id="offcanvasNavbarLabel"></h5>
+                        <button type="button" class="btn-close  btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body"> 
+                        <div class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <a class="menu-item m-3" aria-current="page" href="#">Home</a>
+                            <a class="menu-item m-3" href="#">Events</a>
+                            <a class="menu-item m-3" href="#">About</a>
+                            <a class="menu-item m-3" href="#">Blog</a>
+                            <a class="menu-item m-3" href="#">Contact</a>
+                        </div>           
+                    </div>
+                </div>  
+            </div>
+        </nav>        
+    </header>
+
+    <!-------------------------- Header End ----------------------------->
+   
+
+     
+    <main>
+        <!------------------- Banner Container Start ------------------->
+        <div class="banner-container">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 d-flex">
+                            <div class="banner-content d-flex align-items-center justify-content-center">
+                                <div class="banner-title">
+                                    <h1>Best Education For Brighter future</h1>
+                                    <div class="banner-text">
+                                        <p class="w-100">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis labore optio
+                                            architecto beatae, similique delectus minus eius a amet atque veritatis
+                                            laborum velit. Temporibus, delectus earum. Inventore accusantium maiores
+                                            vero facilis cumque quos dolore, iure excepturi deserunt consequuntur.
+                                            Veritatis, ullam.
+                                        </p>
+                                    </div>
+                                    <div class="banner-button">
+                                        <button>Read More</button>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------- Banner Container End --------------------->
+
+        <div class="container p-container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="main-container ">
+                        <div class="main-content">
+                            <h2>Strategies for Success</h2>
+                        </div>
+                        <div class="main-para text-center">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet odio dolorum quisquam aut,
+                                aspernatur, quia provident quidem fuga ad neque illo dolor, ullam maxime. Repellendus
+                                obcaecati nam in atque quae.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------- Section Container Start ---------------------->
+        <div class="p-container">
+            <div class="counter-container ">
+                <div class="overlay ">
+                    <div class="d-flex justify-content-around align-items-center h-100">
+                        <div class="row count-container w-75">
+                            <div class=" col-lg-3 col-sm-6 counter-item counter-item1">
+                                <div class="counter-number">
+                                    <span class="counter-n" data-val="50">0</span>
+                                </div>
+                                <div class="counter-content">
+                                    Courses
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 counter-item counter-item2">
+                                <div class="counter-number">
+                                    <span class="counter-n"  data-val="350">0</span>
+                                </div>
+                                <div class="counter-content">
+                                    Students Enrolled
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 counter-item counter-item3">
+                                <div class="counter-number">
+                                    <span class="counter-n" data-val="75">0</span>
+                                </div>
+                                <div class="counter-content">
+                                    Expert Trainers
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 counter-item counter-item4">
+                                <div class="counter-number">
+                                    <span class="counter-n" data-val="50">0</span>
+                                </div>
+                                <div class="counter-content">
+                                    Projects
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------- Section Container End ---------------------->
+
+    </main>
+
+
+    <!---------------------------- Footer Start ------------------------------>
+    <footer class="p-container">
+        <div class="footer-section pb-3 pt-5">
+          <div class="container mb-4">
+            <div class="row d-flex justify-content-between">
+              <div class="col-xl-5 col-lg-5 col-md-8 col-sm-8">
+                
+                <div class="footer-title w-75 pt-3">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum sit hic cupiditate libero explicabo quis optio est saepe! Assumenda, ullam?</p>
+                </div>
+                <ul class="footer-icons">
+                  <li>
+                    <a href="#"> <iconify-icon icon="logos:facebook" width="20" height="20"
+                        class="facebook-icon socialmedia-icons"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="#"><iconify-icon icon="skill-icons:instagram" width="20" height="20"
+                        class="instagram-icon socialmedia-icons"></iconify-icon></a>
+                  </li>
+                  <li>
+                    <a href="#"><iconify-icon icon="skill-icons:twitter" width="20" height="20"
+                        class="twitter-icon socialmedia-icons"></iconify-icon>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"><iconify-icon icon="logos:youtube-icon" width="20" height="20"
+                        class="youtube-icon socialmedia-icons"></iconify-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 footer-head">
+                <div class="footer-title footer-list-items">
+                  <h3>Useful Links</h3>
+                  <ul class="footer-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-8 col-sm-6 footer-head">
+                <div class="footer-title footer-list-items">
+                  <h3>Course Category</h3>
+                  <ul class="footer-list">
+                    <li><a href="#">Development</a></li>
+                    <li><a href="#">Marketing</a></li>
+                    <li><a href="#">Designing</a></li>
+                    <li><a href="#">Data Science</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                <div class="footer-title footer-contact footer-list-items">
+                  <h3>Contact Us</h3>
+                  <ul class="footer-list">
+                    <li>
+                      <iconify-icon icon="mingcute:phone-fill" style="color: white;" width="18" height="18"
+                        class="fcontact-icons"></iconify-icon>
+                      <a href="#">+10 (78) 738-9083</a>
+                    </li>
+                    <li>
+                      <iconify-icon icon="quill:mail" style="color: white;" width="18" height="18"
+                        class="fcontact-icons"></iconify-icon>
+                      <span class="footer-list-item">demomail89@gmail.com</span>
+                    </li>
+                    <li>
+                      <iconify-icon icon="zondicons:location" style="color: white;" width="18" height="18"
+                        class="fcontact-icons"></iconify-icon>
+                      <span class="footer-list-item">76/A,Mumbai</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-4 copyrights">
+              <div class="col-xl-12 col-lg-12 text-center">
+                <span class="copyright"> Copyright © 2018, All Right Reserved</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!----------------------------- Footer End ------------------------------>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        <script src="./counternew.js"></script>
+    
+</body>
+
+</html>
